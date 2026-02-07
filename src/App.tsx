@@ -12,7 +12,7 @@ import { getFirestore, doc, setDoc, getDoc, collection, onSnapshot, addDoc, upda
 
 // --- CONFIG ---
 // FIX: Set empty string to use environment variable
-const apiKey = ""; 
+const apiKey = "AIzaSyA1dLu0OqYQX6FMwPYnza9SQPDBOM_7LIo"; 
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 const GEMINI_TTS_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
 
